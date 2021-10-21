@@ -1,6 +1,6 @@
 # Giggles N Shit --Blog
 
-This is a blog written by me, Evan Marshall, owner of [![Elysian Web Design](https://elysianwebdesign.com/)]
+This is a blog written by me, Evan Marshall, owner of [Elysian Web Design](https://elysianwebdesign.com/)
 
 It is a narration of my introduction into the wonderful world of parenting. We get our fair share of curve balls thrown at us, but we always get through it as a **team**.
 
@@ -10,4 +10,4 @@ No matter what the situation --be it screaming babies, surprise shits or judgmen
 
 ## The Nerdy Stuff
 
-The blog is a web app created using the [![Next JS React Framework](https://nextjs.org/)], Markdown (MDX) text for data input as well as [![Tailwind CSS](https://tailwindcss.com/)] for the core styling.
+The blog is a web app created using the [Next JS React Framework](https://nextjs.org/), Markdown (MDX) text for data input as well as [Tailwind CSS](https://tailwindcss.com/) for the core styling.

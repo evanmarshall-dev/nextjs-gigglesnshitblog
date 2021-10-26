@@ -15,11 +15,11 @@ I met Katie in high school in a town/ suburb/ city/ (who knows what the fuck to 
 
 ---
 
-[Sack Vegas Website](https://sack-vegas.com/)
+**[Sack Vegas Website](https://sack-vegas.com/)**
 
 ---
 
-[YouTube: Lower Sackville Promo](https://youtu.be/Sms7hcWJIZY)
+**[YouTube: Lower Sackville Promo](https://youtu.be/Sms7hcWJIZY)**
 
 ---
 
@@ -31,7 +31,7 @@ The rest of the evening went very well. Katie was the first down to earth, funny
 
 ---
 
-[YouTube: The Hot & Crazy Matrix](https://youtu.be/R_USJCTIgs4)
+**[YouTube: The Hot & Crazy Matrix](https://youtu.be/R_USJCTIgs4)**
 
 ---
 

@@ -10,6 +10,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { sortByDate } from "../utils";
 
+const siteTitle = "Giggles N Shit --Blog";
+const desc =
+  "Join me as I narrate my first attempt at parenting. As a stay at home daddy, it is not your most conventional family life. Expect lots of love, laughter and poo mixed into these stories!";
+const mainImg = "/images/beach-bums.jpg";
+
 export default function Home({ posts }) {
   // Shows the array with the posts with slug and front matter
   // console.log(posts);
@@ -18,10 +23,15 @@ export default function Home({ posts }) {
       <Head>
         <title>Giggles N Shit --Blog</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content={desc} />
+        <meta property="og:image" content={mainImg} />
+        <meta name="og:title" content={siteTitle} />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header />
       <main className="flex flex-col items-center justify-center w-full flex-1 px-10 text-center">
-        <div className="posts flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+        <h2 className="text-4xl">Blog Posts</h2>
+        <div className="posts flex flex-wrap items-center justify-around m-6 sm:w-full">
           {posts.map((post, index) => (
             <Post key={index} post={post} />
           ))}

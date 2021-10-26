@@ -19,20 +19,23 @@ export default function PostPage({
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex flex-col items-center justify-center w-full text-center px-10 py-20">
+      <header className="flex flex-col items-center justify-center w-full text-center px-10 py-20 border-b-2 mb-20">
+        <Image src={cover_image} height={850} width={850} />
         <Link href="/">
-          <a className="hover:text-purple-600 focus:text-purple-600">
+          <a className="hover:text-purple-600 focus:text-purple-600 mt-10">
             <h1 className="text-6xl font-bold">{title}</h1>
           </a>
         </Link>
         <p className="my-3 text-2xl">{date}</p>
-        <Image src={cover_image} height={850} width={850} />
       </header>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-10 pb-20 text-center">
         {/* Here is where we pull in the blog content from markdown and we parse it with marked import from above */}
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+        <div
+          className="border-b-2 pb-20"
+          dangerouslySetInnerHTML={{ __html: marked(content) }}
+        ></div>
         <Link href="/">
-          <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-purple-600 focus:text-purple-600">
+          <a className="p-6 mt-6 border w-96 rounded-xl hover:text-purple-600 focus:text-purple-600 text-center">
             Back to Home Page
           </a>
         </Link>

@@ -1,6 +1,6 @@
 ---
 title: "Summer in the Six: Part II"
-date: "October 2nd, 2016"
+date: "October 2, 2016"
 excerpt: "Katie was approved to save Isla’s life! Wow, what an important call and what..."
 cover_image: "/images/posts/beads.webp"
 ---

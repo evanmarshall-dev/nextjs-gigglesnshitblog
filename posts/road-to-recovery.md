@@ -1,6 +1,6 @@
 ---
 title: "Road to Recovery"
-date: "October 24th, 2016"
+date: "October 24, 2016"
 excerpt: "Over our two trips to Toronto we were at about one month spent away from home. The transplant..."
 cover_image: "/images/posts/family.jpg"
 ---

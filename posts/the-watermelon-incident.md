@@ -1,6 +1,6 @@
 ---
 title: "The Watermelon Incident"
-date: "March 28th, 2016"
+date: "March 28, 2016"
 excerpt: 'Nine months of: "You will want to pull your hair out!" Nine months of: "Crazy...'
 cover_image: "/images/posts/watermelon.webp"
 ---

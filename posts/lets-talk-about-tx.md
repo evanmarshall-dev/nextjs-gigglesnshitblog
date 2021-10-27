@@ -1,6 +1,6 @@
 ---
 title: "Let's Talk About Tx"
-date: "September 6th, 2016"
+date: "September 6, 2016"
 excerpt: "In April we went to our routine monthly GI Clinic visit. I say monthly, however, it had been..."
 cover_image: "/images/posts/tx.webp"
 ---

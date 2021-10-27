@@ -1,6 +1,6 @@
 ---
 title: "Tough Cookie"
-date: "April 26th, 2016"
+date: "April 26, 2016"
 excerpt: "Our first week started out with a bang. Katie and I had come to terms with the fact that Isla most likely had..."
 cover_image: "/images/posts/xmas.webp"
 ---

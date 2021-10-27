@@ -1,6 +1,6 @@
 ---
 title: "Gunsling N Giggles"
-date: "June 22nd, 2016"
+date: "June 22, 2016"
 excerpt: "It’s always interesting how much entertainment a child adds to your life. Life, pre-family, has..."
 cover_image: "/images/posts/pooface.jpg"
 ---

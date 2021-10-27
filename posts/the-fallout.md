@@ -1,6 +1,6 @@
 ---
 title: "The Fallout"
-date: "May 3rd, 2016"
+date: "May 3, 2016"
 excerpt: "We all survived the surgery. Isla had about a week of recovery on the surgical unit of the IWK Hospital. The rooms..."
 cover_image: "/images/posts/santa.webp"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Bomb Drop: Part I"
-date: "April 11th, 2016"
+date: "April 11, 2016"
 excerpt: "So here we are. It is Monday April 11th (5 days before Katie's 28th birthday. Had to say that in..."
 cover_image: "/images/posts/the-bomb-1.webp"
 ---

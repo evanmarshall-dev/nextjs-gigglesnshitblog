@@ -1,23 +1,17 @@
-// Import the filesystem node js module into react and it won't work because it only works on server side not client side. Therefore we bring it into the getstaticprops function which is on the server side
-import fs from "fs";
-// Import path which allows us to easily look in root folder for a particular folder or path
-import path from "path";
-// Gray matter helps parse the markdown
-import matter from "gray-matter";
 import Head from "next/head";
-import Post from "../components/Post";
+import Link from "next/link";
+import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { sortByDate } from "../utils";
+// import Date from "../components/Date";
+import { getSortedPostsData } from "../lib/posts";
 
 const siteTitle = "Giggles N Shit --Blog";
 const desc =
   "Join me as I narrate my first attempt at parenting. As a stay at home daddy, it is not your most conventional family life. Expect lots of love, laughter and poo mixed into these stories!";
 const mainImg = "/images/beach-bums.jpg";
 
-export default function Home({ posts }) {
-  // Shows the array with the posts with slug and front matter
-  // console.log(posts);
+export default function Home({ allPostsData }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-0">
       <Head>
@@ -31,9 +25,18 @@ export default function Home({ posts }) {
       <Header />
       <main className="flex flex-col items-center justify-center w-full flex-1 px-10 text-center">
         <h2 className="text-4xl">Blog Posts</h2>
+
         <div className="posts flex flex-wrap items-center justify-around m-6 sm:w-full">
-          {posts.map((post, index) => (
-            <Post key={index} post={post} />
+          {allPostsData.map(({ id, date, title, excerpt, cover_image }) => (
+            <Link key={id} href={`/posts/${id}`}>
+              <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-purple-600 focus:text-purple-600">
+                <Image src={cover_image} height={850} width={850} />
+                <h3 className="text-2xl font-bold">{title}</h3>
+                {/* <Date dateString={date} /> */}
+                <em>{date}</em>
+                <p className="mt-4 text-xl">{excerpt}</p>
+              </a>
+            </Link>
           ))}
         </div>
       </main>
@@ -43,37 +46,10 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  // To pull in static (not api) posts we fetch data
-  // Using path.join allows us to look inside root folder for path called posts
-  const files = fs.readdirSync(path.join("posts"));
-  // Get slug and front matter (i.e. title, date, excerpt) from posts
-  // Create variable set to files array to be mapped/looped to
-  const posts = files.map((filename) => {
-    // For each filename we want to create slug and replace filenames with extension .md with nothing
-    const slug = filename.replace(".md", "");
-    // Also want to get the front matter
-    const markdownWithMeta = fs.readFileSync(
-      path.join("posts", filename),
-      "utf-8"
-    );
-    // Shows all of the markdown or front matter in the console
-    // console.log(markdownWithMeta);
-    // Wrap the markdownwithmeta which is the front matter with gray matter which parses it so that it can be returned below with the slug and we can now use within the home page component
-    const { data: frontmatter } = matter(markdownWithMeta);
-    // Return an object with all of the slugs
-    return {
-      slug,
-      frontmatter,
-    };
-  });
-
-  // Shows the slug without .md extension in the console
-  // console.log(posts);
-
+  const allPostsData = getSortedPostsData();
   return {
-    // Return an object for posts, which we destructure in the page component
     props: {
-      posts: posts.sort(sortByDate),
+      allPostsData,
     },
   };
 }

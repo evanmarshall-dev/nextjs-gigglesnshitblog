@@ -1,6 +1,6 @@
 ---
 title: "Dr. Sloth"
-date: "April 5th, 2016"
+date: "April 5, 2016"
 excerpt: "Leading up to Labour Day was like those stupid Facebook videos with the beautiful rolling hills, somber..."
 cover_image: "/images/posts/peanut.webp"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Shit I'm Pregnant"
-date: "March 20, 2016"
+date: "2016-03-20"
 excerpt: "It’s early April of 2015. My wife Katie and I are on one of our leisurely drives around..."
 cover_image: "/images/posts/announcement.webp"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Summer in the Six: Part I"
-date: "September 19, 2016"
+date: "2016-09-19"
 excerpt: "It was time. Isla, Katie, and my first big trip to the big city. Pediatric Liver transplants are..."
 cover_image: "/images/posts/plane.webp"
 ---

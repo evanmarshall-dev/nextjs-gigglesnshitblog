@@ -1,6 +1,6 @@
 ---
 title: "The Bomb Drop: Part II"
-date: "April 19, 2016"
+date: "2016-04-19"
 excerpt: "The nail-biting day had arrived. The day we were to find out if our precious little peanut was just messing with us or..."
 cover_image: "/images/posts/hospital.webp"
 ---

@@ -2,7 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../../components/Footer";
-// import Date from "../../components/Date";
+import Date from "../../components/Date";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
 export default function Post({ postData }) {
@@ -19,8 +19,7 @@ export default function Post({ postData }) {
             <h1 className="text-6xl font-bold">{postData.title}</h1>
           </a>
         </Link>
-        {/* <Date className="my-3 text-2xl" dateString={postData.date} /> */}
-        <p className="my-3 text-2xl">{postData.date}</p>
+        <Date className="my-3 text-2xl" dateString={postData.date} />
       </header>
       <article className="flex flex-col items-center justify-center w-full flex-1 px-10 pb-20 text-center prose prose-sm sm:prose-lg lg:prose-xl xl:prose-2xl">
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

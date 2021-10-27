@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-// import Date from "../components/Date";
+import Date from "../components/Date";
 import { getSortedPostsData } from "../lib/posts";
 
 const siteTitle = "Giggles N Shit --Blog";
@@ -32,8 +32,7 @@ export default function Home({ allPostsData }) {
               <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-purple-600 focus:text-purple-600">
                 <Image src={cover_image} height={850} width={850} />
                 <h3 className="text-2xl font-bold">{title}</h3>
-                {/* <Date dateString={date} /> */}
-                <em>{date}</em>
+                <Date dateString={date} />
                 <p className="mt-4 text-xl">{excerpt}</p>
               </a>
             </Link>

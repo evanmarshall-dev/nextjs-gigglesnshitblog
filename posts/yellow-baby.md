@@ -1,6 +1,6 @@
 ---
 title: "Yellow Baby"
-date: "August 17, 2016"
+date: "2016-08-17"
 excerpt: "We arrived at the six month mark in May. Our confidence in parenting and routine had increased ten fold. Our months included..."
 cover_image: "/images/posts/yellow.webp"
 ---

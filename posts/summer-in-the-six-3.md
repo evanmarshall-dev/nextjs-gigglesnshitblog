@@ -1,6 +1,6 @@
 ---
 title: "Summer in the Six: Part III"
-date: "October 16, 2016"
+date: "2016-10-16"
 excerpt: "Isla was on her way to surgery and I had gained a modest sense of relief knowing that..."
 cover_image: "/images/posts/surgery.webp"
 ---

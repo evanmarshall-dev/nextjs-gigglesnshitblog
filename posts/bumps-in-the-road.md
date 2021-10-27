@@ -1,6 +1,6 @@
 ---
 title: "Bumps in the Road"
-date: "June 7, 2016"
+date: "2016-06-07"
 excerpt: "Who said parenting was hard? That person is nuts! Just kidding, parenting can be tough, but..."
 cover_image: "/images/posts/car-seat.webp"
 ---

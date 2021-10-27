@@ -21,7 +21,7 @@ The Nannies and I waiting in the surgical waiting room to hear about Katie's sur
 
 ---
 
-Anyways, back to the main story after that small tangent. I introduced mom to that deliciously red and refreshing drink from Starbucks (she quickly developed an addiction, too), we jay-walked across Gerrard street (Uh oh, bunch of criminals), and entered the Peter Munk building. From there, we headed straight to the transplant surgical waiting area. Thankfully, the waiting room was very comfortable, because we had a long wait ahead of us. It was an interesting setup:
+Anyways, back to the main story after that small tangent. I introduced mom to that deliciously red and refreshing drink from Starbucks (she quickly developed an addiction, too), we jay-walked across Gerard street (Uh oh, bunch of criminals), and entered the Peter Munk building. From there, we headed straight to the transplant surgical waiting area. Thankfully, the waiting room was very comfortable, because we had a long wait ahead of us. It was an interesting setup:
 
 - A bunch of high-stressed people in a room
 - Volunteers working the “information booth”

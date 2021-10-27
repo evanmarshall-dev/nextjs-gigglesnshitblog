@@ -47,4 +47,4 @@ We made it through the infection scare. Five IV lines later and some of the best
 
 ## What Next?
 
-**If you think the poop explosion was bad, you just wait to see what kinds of mischief our little ham has put her parents through, “post explosion.” We are close to Isla’s daddy being home all by his lonesome, Isla starts to develop more of a personality, the night of terror, and much much more. Stay tuned folks!**
+_If you think the poop explosion was bad, you just wait to see what kinds of mischief our little ham has put her parents through, “post explosion.” We are close to Isla’s daddy being home all by his lonesome, Isla starts to develop more of a personality, the night of terror, and much much more. Stay tuned folks!_

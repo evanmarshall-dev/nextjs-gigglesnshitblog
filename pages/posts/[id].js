@@ -22,7 +22,7 @@ export default function Post({ postData }) {
         {/* <Date className="my-3 text-2xl" dateString={postData.date} /> */}
         <p className="my-3 text-2xl">{postData.date}</p>
       </header>
-      <article className="flex flex-col items-center justify-center w-full flex-1 px-10 pb-20 text-center prose max-w-none">
+      <article className="flex flex-col items-center justify-center w-full flex-1 px-10 pb-20 text-center prose prose-sm sm:prose-lg lg:prose-xl xl:prose-2xl">
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         <Link href="/">
           <a className="p-6 mt-6 border w-96 rounded-xl hover:text-purple-600 focus:text-purple-600 text-center">

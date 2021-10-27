@@ -41,6 +41,6 @@ I always said newborn babies looked like a combination of alien and red jelly be
 
 I am still amazed at how much you love that little peanut instantly. I've never had it hit me right away like that. With a spouse it takes time and effort. With family you know you have to love them no matter what. I don't believe in all of the Hollywood fairy tale bullshit of love at first sight, fate, etc, but I have to say with Isla it was definitely love at first site.
 
-**And so Isla's story begins! Weighing in at 7 pounds 1 ounce, and arriving at approximately 4 pm, on November 10th, 2015.**
+_And so Isla's story begins! Weighing in at 7 pounds 1 ounce, and arriving at approximately 4 pm, on November 10th, 2015._
 
-### P.S. I now understand why we have no recollection of our births. That shit is traumatic.
+**P.S. I now understand why we have no recollection of our births. That shit is traumatic.**

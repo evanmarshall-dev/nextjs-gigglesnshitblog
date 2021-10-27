@@ -41,4 +41,4 @@ Skip ahead 11 years, past many many more stories, trials and tribulations; back 
 
 All is forgotten of the aforementioned argument that night, we hold each other with tears in our eyes and laughing due to the irony of what just happened. I may have mustered out: “guess we have no choice now,” as I look nervously over her shoulder at the pair of scissors behind her back…
 
-### Just kidding (about the scissors)!
+**Just kidding (about the scissors)!**
